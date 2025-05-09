@@ -55,7 +55,7 @@ const CreatePost = () => {
             handleChange={handleChange}
           />
           <FormField
-            LabelName="Promt"
+            LabelName="Prompt"
             type="text"
             name="prompt"
             placeholder="teddy bears shopping for groceries in Japan, ukiyo-e"
