@@ -27,7 +27,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://localhost/api/v1/post', {
+      const response = await fetch('https://geniepix.onrender.com/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
